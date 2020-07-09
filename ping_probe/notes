@@ -1,0 +1,10 @@
+TABULKA SQLITE: PING_PROBE
+
+id INTEGER PRIMARY KEY | timestamp INTEGER | hostname TEXT | latency REAL
+
+CREATE TABLE latency (
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	timestamp INTEGER NOT NULL,
+	hostname TEXT NOT NULL,
+	latency REAL NOT NULL
+);
